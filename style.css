@@ -112,7 +112,7 @@ h1 span:nth-child(14) {
 #padding-top {
   padding-top: 60px;
 }
-p {
+.text-info  {
   padding-top: 20px;
   font-size: 14px;
   color: white;
@@ -174,4 +174,17 @@ h2 {
   bottom: 15px;
   width: 100%;
   margin: auto;
+}
+footer {
+  text-align: center;
+  position: absolute;
+  z-index: 100;
+  bottom: 0;
+  color:black;
+  width: 90%;
+  margin: auto;
+}
+.modal-trigger  {
+  text-decoration: none;
+  color: white;
 }
